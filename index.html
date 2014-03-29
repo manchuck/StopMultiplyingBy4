@@ -5,7 +5,7 @@
 
         <title>Stop multiplying by 4 - Practical software estimation</title>
 
-        <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+        <meta name="description" content="Software estimation techniques for developers">
         <meta name="author" content='Chuck "MANCHUCK" Reeves'>
 
         <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -13,8 +13,10 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/reveal.min.css">
         <link rel="stylesheet" href="css/theme/solarized.css" id="theme">
+        <link rel="stylesheet" href="css/custom.css">
 
         <!-- For syntax highlighting -->
         <link rel="stylesheet" href="lib/css/zenburn.css">
@@ -84,299 +86,363 @@
                 </section>
 
                 <section>
-                    <h2>Fact #1</h2>
-                    <p>If you have any inkling of budget or time line, Your estimate will be biased</p>
-                </section>
-
-                <section>
-                    <p><img src="img/devhell-logo1-512.png" alt="Dev Hell" ></p>
-                    <p class="fragment">
-                        <audio controls>
-                            <source src="audio/chris.mp3" type="audio/mpeg">
-                            Your browser does not support this audio format.
-                        </audio>
-                    </p>
+                    <h3>If you have any inkling of budget or time line, Your estimate will be biased</h3>
                     <aside class="notes">
-                        Clarify Episode 25
-                    </aside>
-                </section>
-
-                <section>
-                    <h2>Fact #2</h2>
-                    <p>It's easy to estimate what you know</p>
-                </section>
-
-                <section>
-                    <img src="img/devhell-logo1-512.png" alt="Dev Hell" >
-                    <aside class="notes">
-                        Clarify Episode 25
                         <ul>
-                            <li>Difficult to do</li>
-                            <li>Take Blue days </li>
-                            <li>Scotty Approach</li>
+                            <li>Magne Jørgensen</li>
+                            <li>Stein Grimstad</li>
                         </ul>
                     </aside>
                 </section>
 
                 <section>
-                    <h2>Slides</h2>
-                    <p>
-                        Not a coder? No problem. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slid.es" target="_blank">http://slid.es</a>.
-                    </p>
+                    <p><img src="img/devhell-logo1-512.png" alt="Dev Hell" ></p>
+                    <aside class="notes">
+                        Clarify Episode 25
+                    </aside>
                 </section>
 
                 <section>
-                    <h2>Point of View</h2>
-                    <p>
-                        Press <strong>ESC</strong> to enter the slide overview.
-                    </p>
-                    <p>
-                        Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
-                    </p>
-                </section>
-
-                <section>
-                    <h2>Works in Mobile Safari</h2>
-                    <p>
-                        Try it out! You can swipe through the slides and pinch your way to the overview.
-                    </p>
-                </section>
-
-                <section>
-                    <h2>Marvelous Unordered List</h2>
-                    <ul>
-                        <li>No order here</li>
-                        <li>Or here</li>
-                        <li>Or here</li>
-                        <li>Or here</li>
-                    </ul>
-                </section>
-
-                <section>
-                    <h2>Fantastic Ordered List</h2>
-                    <ol>
-                        <li>One is smaller than...</li>
-                        <li>Two is smaller than...</li>
-                        <li>Three!</li>
-                    </ol>
-                </section>
-
-                <section data-markdown>
-                    <script type="text/template">
-                        ## Markdown support
-
-                        For those of you who like that sort of thing. Instructions and a bit more info available [here](https://github.com/hakimel/reveal.js#markdown).
-
-                        ```
-                        <section data-markdown>
-                          ## Markdown support
-
-                          For those of you who like that sort of thing.
-                          Instructions and a bit more info available [here](https://github.com/hakimel/reveal.js#markdown).
-                        </section>
-                        ```
-                    </script>
-                </section>
-
-                <section id="transitions">
-                    <h2>Transition Styles</h2>
-                    <p>
-                        You can select from different transitions, like: <br>
-                        <a href="?transition=cube#/transitions">Cube</a> -
-                        <a href="?transition=page#/transitions">Page</a> -
-                        <a href="?transition=concave#/transitions">Concave</a> -
-                        <a href="?transition=zoom#/transitions">Zoom</a> -
-                        <a href="?transition=linear#/transitions">Linear</a> -
-                        <a href="?transition=fade#/transitions">Fade</a> -
-                        <a href="?transition=none#/transitions">None</a> -
-                        <a href="?#/transitions">Default</a>
-                    </p>
-                </section>
-
-                <section id="themes">
-                    <h2>Themes</h2>
-                    <p>
-                        Reveal.js comes with a few themes built in: <br>
-                        <a href="?#/themes">Default</a> -
-                        <a href="?theme=sky#/themes">Sky</a> -
-                        <a href="?theme=beige#/themes">Beige</a> -
-                        <a href="?theme=simple#/themes">Simple</a> -
-                        <a href="?theme=serif#/themes">Serif</a> -
-                        <a href="?theme=night#/themes">Night</a> <br>
-                        <a href="?theme=moon#/themes">Moon</a> -
-                        <a href="?theme=solarized#/themes">Solarized</a>
-                    </p>
-                    <p>
-                        <small>
-                            * Theme demos are loaded after the presentation which leads to flicker. In production you should load your theme in the <code>&lt;head&gt;</code> using a <code>&lt;link&gt;</code>.
-                        </small>
-                    </p>
-                </section>
-
-                <section>
-                    <h2>Global State</h2>
-                    <p>
-                        Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-                        will be added as a class to the document element when the slide is open. This lets you
-                        apply broader style changes, like switching the background.
-                    </p>
-                </section>
-
-                <section data-state="customevent">
-                    <h2>Custom Events</h2>
-                    <p>
-                        Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-                    </p>
-                    <pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
-Reveal.addEventListener( 'customevent', function() {
-    console.log( '"customevent" has fired' );
-} );
-                    </code></pre>
-                </section>
-
-                <section>
-                    <section data-background="#007777">
-                        <h2>Slide Backgrounds</h2>
+                    <audio controls>
+                        <source src="audio/chris.mp3" type="audio/mpeg">
+                        Your browser does not support this audio format.
+                    </audio>
+                    <blockquote style="width: 80%">
                         <p>
-                            Set <code>data-background="#007777"</code> on a slide to change the full page background to the given color. All CSS color formats are supported.
+                            <span class="quote">&ldquo;</span>I&rsquo;ll tell you how I estimate things.  I sit down and figure out how long
+                            I think it would take me to do it.  Then I double that time and then I push it up to the next point on the time progression scale.
+                            Were the &lsquo;Time Progress Scale&rsquo; starts off: seconds, minuets, hours and days.  So if I think something is
+                            going to take me 4 hours to do.  I will double it to 8 and then I would say it would take me 8 days
+                            to get it all completely done start to finish.  And I&rsquo;m usually right, because there are so many impediments.
+                            If you are the only one doing it yourself your schedule can be very accurate.  Once you have to
+                            involve other people, you might as well just make numbers up. You might as well say
+                            &lsquo;I think this will take me blue days to get done&rsquo;<span class="quote">&rdquo;</span>
                         </p>
-                        <a href="#" class="image navigate-down">
-                            <img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-                        </a>
-                    </section>
-                    <section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png">
-                        <h2>Image Backgrounds</h2>
-                        <pre><code>&lt;section data-background="image.png"&gt;</code></pre>
-                    </section>
-                    <section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" data-background-repeat="repeat" data-background-size="100px">
-                        <h2>Repeated Image Backgrounds</h2>
-                        <pre><code style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
-                    </section>
-                </section>
-
-                <section data-transition="linear" data-background="#4d7e65" data-background-transition="slide">
-                    <h2>Background Transitions</h2>
-                    <p>
-                        Pass reveal.js the <code>backgroundTransition: 'slide'</code> config argument to make backgrounds slide rather than fade.
-                    </p>
-                </section>
-
-                <section data-transition="linear" data-background="#8c4738" data-background-transition="slide">
-                    <h2>Background Transition Override</h2>
-                    <p>
-                        You can override background transitions per slide by using <code>data-background-transition="slide"</code>.
-                    </p>
-                </section>
-
-                <section>
-                    <h2>Clever Quotes</h2>
-                    <p>
-                        These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-                        &ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:
-                    </p>
-                    <blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-                        &ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-                        reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
                     </blockquote>
                 </section>
 
                 <section>
-                    <h2>Pretty Code</h2>
-                    <pre><code data-trim contenteditable>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
-
-    var nodes = document.querySelectorAll( selector );
-
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
-
-      if( !node.className ) {
-        node.className += ' roll';
-      }
-    }
-  }
-}
-                    </code></pre>
-                    <p>Courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
+                    <aside class="notes">
+                        <ul>
+                            <li>Park and main</li>
+                            <li>2 Developers</li>
+                            <li>Holidays</li>
+                            <li>Completed a day early</li>
+                        </ul>
+                    </aside>
                 </section>
 
                 <section>
-                    <h2>Intergalactic Interconnections</h2>
-                    <p>
-                        You can link between slides internally,
-                        <a href="#/2/3">like this</a>.
-                    </p>
-                </section>
-
-                <section>
-                    <section id="fragments">
-                        <h2>Fragmented Views</h2>
-                        <p>Hit the next arrow...</p>
-                        <p class="fragment">... to step through ...</p>
-                        <ol>
-                            <li class="fragment"><code>any type</code></li>
-                            <li class="fragment"><em>of view</em></li>
-                            <li class="fragment"><strong>fragments</strong></li>
-                        </ol>
-
-                        <aside class="notes">
-                            This slide has fragments which are also stepped through in the notes window.
-                        </aside>
-                    </section>
-                    <section>
-                        <h2>Fragment Styles</h2>
-                        <p>There's a few styles of fragments, like:</p>
-                        <p class="fragment grow">grow</p>
-                        <p class="fragment shrink">shrink</p>
-                        <p class="fragment roll-in">roll-in</p>
-                        <p class="fragment fade-out">fade-out</p>
-                        <p class="fragment highlight-red">highlight-red</p>
-                        <p class="fragment highlight-green">highlight-green</p>
-                        <p class="fragment highlight-blue">highlight-blue</p>
-                        <p class="fragment current-visible">current-visible</p>
-                        <p class="fragment highlight-current-blue">highlight-current-blue</p>
-                    </section>
-                </section>
-
-                <section>
-                    <h2>Spectacular image!</h2>
-                    <a class="image" href="http://lab.hakim.se/meny/" target="_blank">
-                        <img width="320" height="299" src="http://s3.amazonaws.com/hakim-static/portfolio/images/meny.png" alt="Meny">
-                    </a>
-                </section>
-
-                <section>
-                    <h2>Export to PDF</h2>
-                    <p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, below is an example that's been uploaded to SlideShare.</p>
-                    <iframe id="slideshare" src="http://www.slideshare.net/slideshow/embed_code/13872948" width="455" height="356" style="margin:0;overflow:hidden;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe>
-                    <script>
-                        document.getElementById('slideshare').attributeName = 'allowfullscreen';
-                    </script>
-                </section>
-
-                <section>
-                    <h2>Take a Moment</h2>
-                    <p>
-                        Press b or period on your keyboard to enter the 'paused' mode. This mode is helpful when you want to take distracting slides off the screen
-                        during a presentation.
-                    </p>
-                </section>
-
-                <section>
-                    <h2>Stellar Links</h2>
+                    <h2>Requirements are the key</h2>
                     <ul>
-                        <li><a href="http://slid.es">Try the online editor</a></li>
-                        <li><a href="https://github.com/hakimel/reveal.js">Source code on GitHub</a></li>
-                        <li><a href="http://twitter.com/hakimel">Follow me on Twitter</a></li>
+                        <li class="fragment">It&rsquo;s easy to estimate what you know</li>
+                        <li class="fragment">It&rsquo;s hard to estimate what you know you don&rsquo;t know.</li>
+                        <li class="fragment">It&rsquo;s very hard to estimate things that you don&rsquo;t know you don&rsquo;t know.</li>
+                    </ul>
+                    <aside class="notes">
+                        <ul>
+                            <li>Go to work example</li>
+                            <li>Track time for requirements</li>
+                        </ul>
+                    </aside>
+
+                </section>
+
+                <section>
+                    <h3>The contact form, will accept a valid first and last name, email, and phone number</h3>
+                    <p class="fragment">Missed place modifiers</p>
+                    <aside class="notes">
+                        <ul>
+                            <li>I shot an elephant in my pajamas the other day.  How it got into my pajamas Ill never know</li>
+                            <li>Modifies enhance nouns</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section>
+                    <h3>The contact form, has fields for first name, last name, email, and phone number.  When the form is submitted, all fields will be validated</h3>
+                    <aside class="notes">
+                        <ul>
+                            <li>Name in english only?</li>
+                            <li>Email from specific domain?</li>
+                            <li>Character encoding?</li>
+                            <li>Language?</li>
+                            <li>Valid phone number?</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>Valid phone numbers</h2>
+                    <ul>
+                        <li>(202) 456-1111</li>
+                        <li>555-1212</li>
+                        <li>212-867-5309</li>
+                        <li>1-800-MATTRES</li>
+                        <li>911</li>
+                        <li>+44 871 984 6352</li>
+                        <li>+852 2280 2898</li>
+                        <li>+91 11 2679 1234</li>
                     </ul>
                 </section>
 
                 <section>
-                    <h1>THE END</h1>
-                    <h3>BY Hakim El Hattab / hakim.se</h3>
+                    <h2>Requirement Smells</h2>
+                    <ul class="fragment">
+                        <li>Fast, rapid, efficient</li>
+                        <li>valid, including but not limited too, etc, and so on </li>
+                        <li>maximize, minimize, optimize, at least, between, several</li>
+                        <li>simple, easy, quick, user-friendly</li>
+                        <li>reasonable, when necessary</li>
+                    </ul>
+                    <aside>
+                        <ul>
+                            <li>use a set time "5 seconds"</li>
+                            <li>describe what is valid or invalid.  use comprehensive list</li>
+                            <li>be sure to include appropriate values</li>
+                            <li>describe what makes it these</li>
+                            <li>how to make this judgement</li>
+                        </ul>
+                    </aside>
                 </section>
 
+                <section>
+                    <h3>The contact form, has fields for first name, last name, email, and phone number.  When the form is submitted, all fields will be validated using the following rules:</h3>
+                    <ul>
+                        <li>All fields will use UTF-8 encoding</li>
+                        <li>First and Last name each will be between 3 and 100 characters long</li>
+                        <li>Email will comply with RFC 822 however will be no longer than 300 characters</li>
+                        <li>Phone number will be no longer than 25 characters and validated against the FooBarPhone REST service</li>
+                    </ul>
+                    <aside class="notes">
+                        <ul>
+                            <li>Requirements grow</li>
+                            <li>Break down into smaller parts</li>
+                            <li>Focus on Phone number</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>In order to estimate, you must define the parameters of what you are estimating</h2>
+                </section>
+
+                <section>
+                    <h2>Tools for Estimation</h2>
+                </section>
+
+                <section>
+                    <h2>Historical Data</h2>
+                    <aside class="notes">
+                        <ul>
+                            <li>Count LOC / Hour</li>
+                            <li>GIT commit every hour</li>
+                            <li>Functions or Classes / Hour</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>Dry run / Unit test</h2>
+                    <aside class="notes">
+                        <ul>
+                            <li>OH Tax service WSDL</li>
+                            <li>Dont spend more than an hour</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>Confidence Interval (CI)</h2>
+                    <blockquote style="width: 85%">
+                        <p>
+                            <span class="quote">&ldquo;</span>It is better to be roughly right than precisely wrong.<span class="quote">&rdquo;</span>
+                        </p>
+                        <p>
+                            - John Maynard Keynes
+                        </p>
+                    </blockquote>
+                    <aside class="notes">
+                        <ul>
+                            <li>Statistical model that represents uncertinity</li>
+                            <li>Calculated using MEAN with Variance</li>
+                            <li>No need to pad</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>Lets get Calibrated</h2>
+                    <h5>User Measurement Assumptions</h5>
+                    <ol>
+                        <li class="fragment">Your problem is not as unique as you think.</li>
+                        <li class="fragment">You have more data than you think.</li>
+                        <li class="fragment">You need less data than you think.</li>
+                        <li class="fragment">An adequate amount of new data is more accessible than you think.</li>
+                    </ol>
+                </section>
+                <section>
+                    <h2>Calibration questions</h2>
+                    <ol>
+                        <li class="fragment">What is the wingspan of a 747</li>
+                        <li class="fragment">How far is NY from LA</li>
+                        <li class="fragment">The average house in the United States uses how many gallons/liters of water per day?</li>
+                        <li class="fragment">Francis Scott Key wrote the lyrics, but not the music, for the American National Anthem</li>
+                        <li class="fragment">28 degrees Fahrenheit is colder than -15 degrees Celsius.</li>
+                        <li class="fragment">America On Line purchased Netscape.</li>
+                    </ol>
+                    <aside class="notes">
+                        <ol>
+                            <li>211' (64 m)</li>
+                            <li>2,808 m (4519 km)</li>
+                            <li>350 g (1324 l)</li>
+                            <li>True</li>
+                            <li>False</li>
+                            <li>True</li>
+                        </ol>
+
+                        Pause ~ 45 seconds
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>Improve your estimates</h2>
+                    <h3 class="fragment">Equivalent bet</h3>
+                    <h3 class="fragment">Repetition</h3>
+                    <h3 class="fragment">Pros and Cons</h3>
+                    <h3 class="fragment">Absurdity Test</h3>
+                </section>
+
+                <section>
+                    <h2>Answers</h2>
+                    <ol>
+                        <li><span class="answer">211 ft (64 m)</span> What is the wingspan of a 747 </li>
+                        <li><span class="answer">2,808 mi (4,519 km)</span>How far is NY from LA </li>
+                        <li><span class="answer">350 ga (1,324 l)</span>The average house in the United States uses how many gallons/liters of water per day?</li>
+                        <li><span class="answer">True</span> Francis Scott Key wrote the lyrics, but not the music, for the American National Anthem</li>
+                        <li><span class="answer">False</span> A 28 degrees Fahrenheit is colder than -15 degrees Celsius</li>
+                        <li><span class="answer">True</span> America On Line purchased Netscape</li>
+                    </ol>
+                </section>
+
+                <section>
+                    <h2>Bayes Theorem</h2>
+                    <p><img src="img/bayes-rule.png" alt="P(W|L) = \frac{P(L|W) P(W)}{P(L)} = \frac{P(L|W) P(W)}{P(L|W) P(W) + P(L|M) P(M)}" ></p>
+                    <aside class="notes">
+                        Once more information is available, change your estimate
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>Prioritizing</h2>
+                    <ul>
+                        <li class="fragment">
+                            T-Shirt Sizing
+                            <ul class="fragment">
+                                <li>Development & Technology Cost</li>
+                                <li>Business Value</li>
+                            </ul>
+                        </li>
+                        <li class="fragment">
+                            Prioritization Scale
+                            <ul class="fragment">
+                                <li>Importance</li>
+                                <li>Urgency</li>
+                            </ul>
+                            <table class="table fragment ">
+                                <thead>
+                                    <tr>
+                                        <th>&nbsp;</th>
+                                        <th>Important</th>
+                                        <th>Not Important</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>Urgent</th>
+                                        <td>High Priority</td>
+                                        <td>Don't do these</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Not Urgent</th>
+                                        <td>Medium Priority</td>
+                                        <td>Low Priority</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Politics</h2>
+                    <ul>
+                        <li class="fragment">Manager Resistance</li>
+                        <li class="fragment">Remove people from the problem</li>
+                        <li class="fragment">Focus on Interests not Positions</li>
+                        <li class="fragment">Insist on using objective Criteria</li>
+                    </ul>
+                    <aside class="notes">
+                        <ul>
+                            <li>Doctor Example</li>
+                            <li>Focus on dollars. Focus on whats best for the business</li>
+                            <li>Consider removing features or releasing as beta with known issues</li>
+                            <li>Dont negotiate the estimate</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>Finial tips</h2>
+                    <aside class="notes">
+                        <ul>
+                            <li>Prefer hours as that can adjusted throughout the day</li>
+                            <li>Throwing more developers might not solve the problem</li>
+                            <li>Iterate be honest</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>Questions?</h2>
+                </section>
+
+                <section>
+                    <h2>Thank you!</h2>
+                    <p>
+                        <small><a href="http://www.manchuck.com">Chuck Reeves</a> | <a href="http://twitter.com/manchuck">@manchuck</a></small>
+                    </p>
+                    <h6>credits</h6>
+                    <p>
+                        <small>
+                            <a href="http://www.amazon.com/Software-Requirements-Techniques-Throughout-Development-ebook/dp/B0043M56R8/ref=sr_1_2">
+                                Software Requirements 2
+                            </a> - by Karl Wiegers | ISBN-13: 978-0735605350
+                        </small>
+                    </p>
+                    <p>
+                        <small>
+                            <a href="http://www.amazon.com/Software-Estimation-Demystifying-Practices-Microsoft-ebook/dp/B00F8Q9YZ8/ref=sr_1_1">
+                                Software Estimation
+                            </a> - by Steve McConnell | ISBN-13: 978-0735605350
+                        </small>
+                    </p>
+                    <p>
+                        <small>
+                            <a href="http://www.amazon.com/Software-Estimation-Demystifying-Practices-Microsoft-ebook/dp/B00F8Q9YZ8/ref=sr_1_1">
+                                How to Measure Anything: Finding the Value of Intangibles in Business
+                            </a> - by Douglas W. Hubbard | ISBN-13: 978-1118539279
+                        </small>
+                    </p>
+
+                    <p>
+                        <small>
+                            <a href="http://devhell.info/post/2013-03-07/snappy-answers-to-stupid-questions/">
+                                Dev Hell Podcast
+                            </a> - 1:05
+                        </small>
+                    </p>
+                </section>
             </div>
 
         </div>
@@ -389,7 +455,7 @@ function linkify( selector ) {
             // Full list of configuration options available here:
             // https://github.com/hakimel/reveal.js#configuration
             Reveal.initialize({
-                controls: true,
+                controls: false,
                 progress: true,
                 history: true,
                 center: true,
